@@ -3,7 +3,7 @@ import router from '../router/index';
 import TokenService from './token.service';
 
 const instance = axios.create({
-    baseURL: "http://localhost:8000/api/",
+    baseURL: "https://restaurant-back1-0.onrender.com",
     headers: {
         "Content-Type": "application/json",
     },
